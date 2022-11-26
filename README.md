@@ -6,7 +6,7 @@ Matias Badano
 
 # Descripción
 Una pequeña descripción de como hice la app.
-El estilo es el mismo que esta en el ejemplo de link 
+El estilo es el mismo que esta en el ejemplo.
 
 Home:
 
