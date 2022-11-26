@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import "../styles/styles.css";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -22,19 +23,28 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="Home">
-      <div>
-        {" "}
-        <h1>Header</h1>
+    <div className="fondo" >
+      <div className="header">
+        <div className="haedercontainer">
+          <div className="menucontainer">
+            <img
+              className="imgcss"
+              src="https://uploads-ssl.webflow.com/612fcc289671bc539ecd004e/63597a7833dba6e559436f89_LOGO-simulacr-blanco.dccda331476ff5c519dd-p-500.png"
+            />
+          </div>
+        </div>
       </div>
-      <h1> Lista de Clientes</h1>
+      <div className="contenedorabajo">
+      <h1 className="NombreC"> Lista de Clientes: </h1>
+      <div className="bordecliente"> </div>
       {data.map((item) => (
         <Link key={item.cliente} to={`/cliente/${item.cliente}`}>
-          {" "}
-          <p> {item.cliente}</p>
+          <h2 className="clientes"> {item.cliente}</h2>
         </Link>
+        
       ))}
-    </div>
+      </div>
+      </div>
   );
 };
 

@@ -1,0 +1,223 @@
+*{
+    margin:0 0 0 0;
+}
+body {
+    background-color: #f2f2f2;
+    background-image: linear-gradient(180deg, rgba(41,38,67,1) 0%, rgba(65,65,109,1) 100%);
+    background-repeat: no-repeat;
+   
+}
+
+
+.Cargando{
+    margin: 50px 50px 50px;
+    font-family: 'Gotham Rounded Medium', sans-serif;
+    color:#ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+.fondo{
+    background-color: #f2f2f2;
+    background-image: linear-gradient(180deg, rgba(41,38,67,1) 0%, rgba(65,65,109,1) 100%);
+    color:#333333;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 0px 140px;
+    min-height:auto;
+}
+
+
+.header {
+    background-color: #292643;
+    color: #333333;
+    font-size:14px;
+    line-height: 20px;
+    padding:0px 0px 40px
+}
+.haedercontainer{
+    align-items: left;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: flex-start;
+    line-height: 20px;
+    margin: 0px 124.5px;
+    padding: 50px 0px 0px;
+    text-align: left;
+}
+
+.clientes{
+
+    text-decoration: none;
+    font-family: 'Gotham Rounded Medium', sans-serif;
+    color:#ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    margin: 50px 0px 50px;
+
+}
+
+.clientes:first-letter{
+    text-transform: uppercase;
+}
+.clientes:hover{
+    color:#f6905c;
+    transition-duration: 0.3s;
+}
+.bordecliente{
+    border-color:#ffffff;
+    border-style: solid none none;
+    border-width: 1px 0px 0px;
+}
+h2{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.imgcss{
+    color:#333333;
+    height: 34px;
+    width: 170px;
+    font-size: 14px;
+    align-items: left;
+}
+
+.contenedorabajo{
+color:#333333;
+font-size: 14px;
+grid-auto-columns: 1fr;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto auto;
+line-height: 20px;
+margin:0px 124.5px;
+padding: 80px 0px 0px;
+
+}
+.NombreC{
+    font-family: 'Gotham Rounded Medium', sans-serif;
+color:#ffffff;
+font-size: 32px;
+font-weight: 700;
+line-height: 44px;
+margin: 0px 0px 10px;
+}
+.NombreC::first-letter{
+    text-transform: uppercase;
+}
+.test{
+    font-family: 'Gotham Rounded Medium', sans-serif;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 28.8px;
+    line-height: 44px;
+    margin: 0px 0px 30px;
+
+}
+.testeador {
+    font-family: 'Gotham Rounded Medium', sans-serif;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0px 0px -70px;
+
+}
+.transcr{
+    font-family: 'Gotham Rounded Medium', sans-serif;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25.6px;
+    margin: 40px 0px;
+}
+.oveflow{
+    width: 600px;
+    height: 300px;
+    color:#ffffff;
+    line-height: 22.4px;
+    margin: 0px 0px 60px;
+    padding: 0px 50px 60px;
+    overflow: scroll;
+    width:600px;
+    height:300px;
+}
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+    .oveflow {
+        width: 100%;
+    }
+}
+
+.ptranscr{
+    font-family: 'Gotham Rounded Medium', sans-serif;
+color:#ffffff;
+}
+
+.esce{
+    font-family: 'Gotham Rounded Medium', sans-serif;
+color:#ffffff;
+font-weight: 700;
+font-size: 16px;
+margin: 20px 0xp;
+}
+
+
+.tareas{
+    border-color:#ffffff;
+    border-style: solid none none;
+    border-width: 1px 0px 0px;
+    color:#ffffff;
+    width: 500px;
+    height: 86px;
+    line-height: 22.4px;
+    margin: 20px 0px 40px;
+    padding: 20px 20px 0px;
+}
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+    .subtarea {
+        width: 100%;
+    }
+    .subatareas {
+        width: 100%;
+    }
+}
+
+.subtarea{
+    font-family: 'Gotham Rounded Medium', sans-serif;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.subtareaw {
+    font-family: 'Gotham Rounded Medium', sans-serif;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 16px; 
+    margin: -10px 0px 0px;
+}
+.respuesta{
+    color:#ffffff;
+    font-family: 'Gotham Rounded Medium', sans-serif;
+    line-height: 22.4px;
+    margin: 0px 0px 20px;
+    font-size: 16px;
+    
+
+}
+.duraciontarea{
+color: #f6905c;
+font-family: 'Gotham Rounded Medium', sans-serif;
+line-height: 22.4px;
+padding: 0px 20px 0px;
+font-size: 16px;
+margin: 20px 0px 20px;
+}
