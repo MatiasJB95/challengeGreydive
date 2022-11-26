@@ -19,7 +19,6 @@ const Cliente = () => {
   const [cliente, setCliente] = useState({});
   useEffect(() => {
     const aux = data.find((element) => element.cliente == params.cliente);
-    console.log("aux", params.cliente, aux);
     setCliente(aux);
     setLoading(false);
   }, [params.cliente]);
@@ -61,8 +60,8 @@ const Cliente = () => {
 
               <div>
                 {cliente.preguntas.map((item, i) => (
-                  <div>
-                    <div className="tareas" key={i}>
+                  <div key={i}>
+                    <div className="tareas" >
                       <p className="subtarea">
                         <strong>
                           <span>Tarea {Contador()}: </span>
