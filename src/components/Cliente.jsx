@@ -35,7 +35,7 @@ const Cliente = () => {
         <div className="header">
           <div className="haedercontainer">
             <div className="menucontainer">
-              <img
+              <img alt="Logo"
                 className="imgcss"
                 src="https://uploads-ssl.webflow.com/612fcc289671bc539ecd004e/63597a7833dba6e559436f89_LOGO-simulacr-blanco.dccda331476ff5c519dd-p-500.png"
               />
