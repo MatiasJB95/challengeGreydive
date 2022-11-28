@@ -1,4 +1,3 @@
-import React,{useEffect, useState, Fragment} from "react";
 import { BrowserRouter, Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import Cliente from "./components/Cliente"

@@ -18,7 +18,7 @@ const Cliente = () => {
   const [loading, setLoading] = useState(true);
   const [cliente, setCliente] = useState({});
   useEffect(() => {
-    const aux = data.find((element) => element.cliente == params.cliente);
+    const aux = data.find((element) => element.cliente === params.cliente);
     setCliente(aux);
     setLoading(false);
   }, [params.cliente]);
