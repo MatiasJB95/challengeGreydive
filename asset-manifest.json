@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/challengeGreydive/static/css/main.636085d2.css",
-    "main.js": "/challengeGreydive/static/js/main.b0f011f1.js",
+    "main.js": "/challengeGreydive/static/js/main.379c1dd1.js",
     "static/js/787.af8518ad.chunk.js": "/challengeGreydive/static/js/787.af8518ad.chunk.js",
     "index.html": "/challengeGreydive/index.html",
     "main.636085d2.css.map": "/challengeGreydive/static/css/main.636085d2.css.map",
-    "main.b0f011f1.js.map": "/challengeGreydive/static/js/main.b0f011f1.js.map",
+    "main.379c1dd1.js.map": "/challengeGreydive/static/js/main.379c1dd1.js.map",
     "787.af8518ad.chunk.js.map": "/challengeGreydive/static/js/787.af8518ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.636085d2.css",
-    "static/js/main.b0f011f1.js"
+    "static/js/main.379c1dd1.js"
   ]
 }
