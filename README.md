@@ -1,18 +1,32 @@
-## Greydive Challeng
-Matias Badano
+# Greydive Challenge - Matias Badano
 
+### Descripción
+
+Este proyecto es parte del desafío de entrevista de trabajo de Greydive. A continuación, se detalla la implementación y las habilidades trabajadas.
+
+## Implementación
+
+### Home
+
+- Se utilizó el hook `useState` y `useEffect` para gestionar el estado de la aplicación y realizar la llamada a la API simulada mediante `fetch` para obtener los datos del archivo `db.json`.
+- Con la información obtenida, se mostraron los nombres de los clientes y se utilizaron como parte de la URL, ya que los IDs proporcionados en el JSON eran únicos y permitían distinguir entre los objetos mostrados.
+- Para gestionar las rutas y los enlaces, se utilizó el paquete `react-router-dom`.
+
+### Cliente
+
+- Se utilizó el hook `useParams` y `useEffect` para comparar el parámetro recibido en la URL con el cliente correspondiente y actualizar el estado con los datos del cliente seleccionado.
+- Se utilizó el hook `useState` para mostrar una pantalla de carga básica mientras se obtienen los datos del cliente.
+- Una vez obtenidos los datos del cliente del JSON, se mostraron en la interfaz.
+- Se agregaron dos funciones sencillas para mostrar las respuestas no verbales, siguiendo el estilo del ejemplo proporcionado, y para contar las tareas realizadas.
+
+## Habilidades trabajadas
+
+- **React**: Biblioteca de JavaScript utilizada para construir la interfaz de usuario de la aplicación.
+- **Hooks**: Utilización de los hooks `useState`, `useEffect` y `useParams` para gestionar el estado, efectos secundarios y parámetros de la aplicación.
+- **React Router**: Utilización del paquete `react-router-dom` para gestionar las rutas y enlaces en la aplicación de una manera declarativa.
+- **Consumo de API**: Uso de `fetch` para realizar solicitudes HTTP a la API simulada y obtener los datos necesarios para mostrar en la interfaz.
+- **Desarrollo Front-end**: Implementación de componentes, estados y lógica de renderizado en el lado del cliente utilizando React.
+## Demo
  [Demo](https://genuine-kulfi-3cbeb0.netlify.app)
 
 
-# Descripción
-Una pequeña descripción de como hice la app.
-El estilo es el mismo que esta en el ejemplo.
-
-Home:
-
-Utilize useState, useEffect, una funcion getData via fetch para simular una conexion con el db.json. Con la informacion obtenía mostre los nombres de los clientes y al mismo tiempo lo use como url ya que el id que venia del json eran iguales y no se iba a poder diferenciar entre los objetos mostrados.
-Para los links y las rutas obviamente use el package react-router-dom
-
-Cliente
-Hook useParams y useEffect para comparar lo que me enviaba por url con el cliente correspondiente, donde dicha informacion pasa al useState.
-useState para mostrar una pantalla de carga basica. Ya después es mostrar los datos obtenidos del json. Agregue dos simples función para mostrar las respuestas no verbales como en el ejemplo, y otra para contar las tareas. 
