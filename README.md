@@ -28,5 +28,10 @@ Este proyecto es parte del desafío de entrevista de trabajo de Greydive. A cont
 - **Desarrollo Front-end**: Implementación de componentes, estados y lógica de renderizado en el lado del cliente utilizando React.
 ## Demo
  [Demo](https://genuine-kulfi-3cbeb0.netlify.app)
+ ## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://app.aluracursos.com/emprega-one/profile/matiasss95)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matiasjb95/)
+
+
 
 
